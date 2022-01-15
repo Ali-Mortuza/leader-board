@@ -1,6 +1,28 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: white;
+    width: 870px;
+    padding: 30px;
+}
+
+.Topplayer{
+    color: tomato;
+    margin-top: 3px;
+}
+.top-players{
+    margin-bottom: 30px;
+}
 .players{
     display:grid;
     grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px ;
 }
 .player{
     display: flex;
@@ -9,4 +31,33 @@
 .player img{
     width: 56px;
     height: 56px;
+}
+
+.player-name{
+    margin-left: 16px;
+}
+.hr{
+    color: rgb(197, 189, 189);
+}
+
+/* Blog */
+
+.blog{
+    display: flex;
+}
+
+.blog .tumbnil img{
+    width: 177px;
+    height: 117px;
+}
+
+.blog-info{
+    margin-left: 16px;
+}
+
+.blog-author a{
+    text-decoration: none;
+    color: palevioletred;
+    font-size: 16px;
+
 }
